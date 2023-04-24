@@ -20,5 +20,5 @@ int main() {
         cout<<"YES"<<endl;
     }
     else cout<<"NO"<<endl;
-    cout<<arr[n][0]<<" "<<arr[n][1]<<" "<<arr[n][2]<<endl;
+    // cout<<arr[n][0]<<" "<<arr[n][1]<<" "<<arr[n][2]<<endl;
 }
