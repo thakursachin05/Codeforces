@@ -1,0 +1,2 @@
+#include<bits/stdc++.h>
+int a[510][510],f[510];using namespace std;int main(){srand(1);int n,m;cin>>n>>m;for(int i=1;i<=n;i++)for(int j=1;j<=m;j++)cin>>a[i][j];for(int j=1;j<=50000;j++){int ans=0;for(int i=1;i<=n;i++){f[i]=rand()%m+1;ans=ans^a[i][f[i]];}if(ans>0){cout<<"TAK"<<endl;for(int i=1;i<=n;i++)cout<<f[i]<<" ";cout<<endl;return 0;}}cout<<"NIE"<<endl;return 0;}
