@@ -1,0 +1,2 @@
+#include<iostream>
+using namespace std;main(){int n,i,j,k;string s,dir="/",tmp;cin>>n;for(i=1;i<=n;i++){cin>>s;if(s=="cd"){cin>>s;s+='/';for(j=0;j<s.length();j++){tmp+=s[j];if(s[j]=='/'){if(tmp=="/")dir=tmp;else if(tmp=="../"){for(k=dir.length()-1;dir[k-1]!='/';k--);dir.resize(k);}else dir+=tmp;tmp="";}}}else{cout<<dir<<endl;}}}
