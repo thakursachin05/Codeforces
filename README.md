@@ -6,5 +6,6 @@
 # Maths Problems
 
 # String Matching Alogrithms
+## KMP Alogrithm
 
 # Stack and Queues
