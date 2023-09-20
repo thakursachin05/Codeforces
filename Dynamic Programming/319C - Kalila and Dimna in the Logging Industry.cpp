@@ -1,4 +1,5 @@
 #include <cstdio>
+#include<bits/stdc++.h>
 const int N = 100003;
 int n,a[N],b[N],q[N]; long long f[N];
 main(){
